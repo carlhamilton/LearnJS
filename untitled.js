@@ -3,7 +3,7 @@ const TAX_RATE = 0.08;
 const PHONE_PRICE = 99.99;
 const ACCESSORY_PRICE = 9.99;
 
-var bank_balance = 303.91;
+var bank_balance = 500.00;
 var amount = 0;
 
 function calculateTax(amount) {
