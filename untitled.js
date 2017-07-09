@@ -1,6 +1,6 @@
 const SPENDING_THRESHOLD = 200;
-const TAX_RATE = 0.08;
-const PHONE_PRICE = 99.99;
+const TAX_RATE = 0.20;
+const PHONE_PRICE = 369.99;
 const ACCESSORY_PRICE = 9.99;
 
 var bank_balance = 500.00;
@@ -31,7 +31,7 @@ amount = amount + calculateTax( amount );
 console.log(
 	"Your purchase: " + formatAmount( amount )
 );
-// Your purchase: $334.76
+
 
 // can you actually afford this purchase?
 if (amount > bank_balance) {
