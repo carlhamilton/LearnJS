@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello World</title>
+</head>
+<body>
+
+<script type="text/javascript">
+window.alert("Hello World");
+//takes in information but doesn't use afterwards
+confirm("I love javascript!");
+prompt("Do you want to learn javascript?");
+console.log("Hello World");
+
+var sign= prompt("What is your star sign?").toLowerCase();//toLowerCase converts the string to lowercase to prevent misunderstanding of users input
+//switch statement that matches the correct input from the user and provides a pre-written answer
+switch(sign){
+
+case "taurus":
+alert("2321");
+break;
+case "virgo":
+alert("111");
+break;
+case "leo":
+alert("1233");
+break;
+default: 
+alert("that sucks!");
+break;
+
+}
+//Counts from 0 to 10 and increments by one on each loop pass
+for(var i=0; i <11; i++){
+	console.log(i);
+}
+
+
+for(var numberList=1; numberList<100; numberList++){
+
+	if(numberList%3 ==0){
+		console.log("Fizz");
+	}
+	else
+		console.log(numberList);
+
+}
+
+
+
+2+2;
+
+
+</script>
+
+</body>
+</html>

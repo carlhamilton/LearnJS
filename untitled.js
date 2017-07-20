@@ -31,7 +31,10 @@ amount = amount + calculateTax( amount );
 console.log(
 	"Your purchase: " + formatAmount( amount )
 );
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2cd248edaf706ea3ce6f2f0ac4534b6299cac6bc
 
 // can you actually afford this purchase?
 if (amount > bank_balance) {
