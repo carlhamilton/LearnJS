@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Hello World</title>
-</head>
-<body>
-
-<script type="text/javascript">
-window.alert("Hello World");
-//takes in information but doesn't use afterwards
-confirm("I love javascript!");
-prompt("Do you want to learn javascript?");
-console.log("Hello World");
-
 var sign= prompt("What is your star sign?").toLowerCase();//toLowerCase converts the string to lowercase to prevent misunderstanding of users input
 //switch statement that matches the correct input from the user and provides a pre-written answer
 switch(sign){
@@ -35,7 +21,6 @@ for(var i=0; i <11; i++){
 	console.log(i);
 }
 
-
 for(var numberList=1; numberList<101; numberList++){
 
 	if(numberList%3 ===0){
@@ -54,7 +39,9 @@ for(var numberList=1; numberList<101; numberList++){
 
 	}
 	else
+{
 		console.log(numberList);
+}
 
 }
 var numberCount = 1;
@@ -77,13 +64,3 @@ function greetFriends()
 
 }
 greetFriends();
-
-
-
-2+2;
-
-
-</script>
-
-</body>
-</html>
