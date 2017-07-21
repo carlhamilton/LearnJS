@@ -36,15 +36,35 @@ for(var i=0; i <11; i++){
 }
 
 
-for(var numberList=1; numberList<100; numberList++){
+for(var numberList=1; numberList<101; numberList++){
 
-	if(numberList%3 ==0){
-		console.log("Fizz");
+	if(numberList%3 ===0){
+		if(numberList%5===0){
+			console.log("fizzbuzz");
+		}
+		else
+		{
+			console.log("Fizz");
+
+		}
+	
+	}
+	else if(numberList%5===0){
+		console.log("Buzz");
+
 	}
 	else
 		console.log(numberList);
 
 }
+var numberCount = 1;
+
+do
+{
+	console.log(numberCount);
+	numberCount++;
+
+}while(numberCount <11);
 
 
 
